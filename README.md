@@ -1,106 +1,118 @@
-# 🌊 BELLOW HORROR
+# BELLOW HORROR
 
 ### Maturitná práca — Unreal Engine
 
 > **„Čím hlbšie sa ponoríš, tým menej vieš, čo je skutočné.“**
 
-Krátka príbehovo orientovaná **hororová hra z pohľadu prvej osoby**, odohrávajúca sa v temnom podvodnom prostredí.
+Krátka príbehovo orientovaná hororová hra z pohľadu prvej osoby odohrávajúca sa v temnom podvodnom prostredí.
 
-Hráč sa ujíma úlohy potápača, ktorý musí postupne odhaľovať príbeh, plniť úlohy a prežiť v prostredí, kde sú **kyslík, orientácia a vlastná psychika** rovnako dôležité ako samotné nebezpečenstvo.
+Hráč sa ujíma úlohy potápača, ktorý musí postupne odhaľovať príbeh, plniť úlohy a prežiť v prostredí, kde sú kyslík, orientácia a vlastná psychika rovnako dôležité ako samotné nebezpečenstvo.
 
 ---
 
-## 🎮 O projekte
+## O projekte
 
-Cieľom maturitnej práce je vytvoriť **funkčný hrateľný prototyp** krátkej príbehovo orientovanej hororovej hry.
+Cieľom maturitnej práce je vytvoriť funkčný prototyp krátkej príbehovo orientovanej hororovej hry.
 
 Hra kombinuje:
 
-* 🌊 podvodný prieskum
-* 😨 psychologické prvky a mechaniku paniky
-* 🫁 systém kyslíka
-* 🔦 dynamické osvetlenie a obmedzenú viditeľnosť
-* 🧭 orientáciu pomocou vodiaceho lana
-* 📡 hľadanie predmetov pomocou detektora kovov
-* 📦 interakciu s predmetmi a ich používanie
-* 👁️ environmentálne nebezpečenstvá
-* 🎧 zvukové a vizuálne efekty
-* 📖 príbeh založený na postupnom odhaľovaní udalostí
+* podvodný prieskum
+* psychologické prvky a mechaniku paniky
+* systém kyslíka
+* dynamické osvetlenie a obmedzenú viditeľnosť
+* orientáciu pomocou vodiaceho lana
+* hľadanie predmetov pomocou detektora kovov
+* interakciu s predmetmi a ich používanie
+* environmentálne nebezpečenstvá
+* zvukové a vizuálne efekty
+* príbeh založený na postupnom odhaľovaní udalostí
 
-Výsledkom bude **ucelená podvodná mapa s minimálne 5 naväzujúcimi príbehovými úlohami**, ktoré využívajú vytvorené herné mechaniky.
-
----
-
-# 🧑‍💻 Matejova časť
-
-### Gameplay & Player Systems
-
-Matej je zodpovedný najmä za **hernú logiku spojenú s hráčom a hlavnými gameplay mechanikami**.
-
-### ⚙️ Hlavné systémy
-
-* **Pohyb hráča pod vodou**
-
-  * realistický pohyb potápača
-  * ovplyvnenie pohybu stavom paniky
-  * reakcia ovládania na aktuálny stav hráča
-
-* **Systém kyslíka**
-
-  * postupná spotreba kyslíka
-  * vizuálna spätná väzba
-  * zvukové upozornenia
-  * reakcia ostatných herných mechaník na stav kyslíka
-
-* **Mechanika paniky**
-
-  * dynamická úroveň paniky
-  * reakcia na nedostatok kyslíka
-  * reakcia na prostredie
-  * reakcia na príbehové udalosti
-  * ovplyvnenie správania a pohybu hráča
-
-* **Interakčný systém**
-
-  * interakcia s predmetmi
-  * zbieranie predmetov
-  * používanie predmetov
-  * prepojenie predmetov s príbehovými úlohami
-
-* **Detektor kovov**
-
-  * vyhľadávanie skrytých predmetov
-  * zvuková a vizuálna signalizácia
-  * využitie v rámci príbehových úloh
-
-* **Vodiace lano**
-
-  * navigácia v podvodnom prostredí
-  * pomoc pri orientácii
-  * využitie počas príbehových udalostí
-
-### 🔗 Prepojenie mechaník
-
-Jednotlivé systémy budú navzájom prepojené tak, aby vytvárali **ucelený gameplay loop**.
-
-> **Prieskum → interakcia → príbehová udalosť → zvýšenie napätia → zmena stavu hráča → ďalší postup**
+Výsledkom bude ucelená podvodná mapa s minimálne 5 nadväzujúcimi príbehovými úlohami, ktoré využívajú vytvorené herné mechaniky.
 
 ---
 
-# 🎨 Igorova časť
+# Matejova časť
 
-### Environment, Events & Atmosphere
+## Gameplay & Player Systems
 
-Igor je zodpovedný najmä za **návrh herného prostredia, atmosféru, príbehové udalosti a systémy reagujúce na postup hráča**.
+Matej je zodpovedný najmä za hernú logiku spojenú s hráčom a hlavnými gameplay mechanikami.
 
-### 🌊 Podvodná úroveň
+### Hlavné systémy
+
+#### Pohyb hráča pod vodou
+
+* realistický pohyb potápača
+* ovplyvnenie pohybu stavom paniky
+* reakcia ovládania na aktuálny stav hráča
+
+#### Systém kyslíka
+
+* postupná spotreba kyslíka
+* vizuálna spätná väzba
+* zvukové upozornenia
+* reakcia ostatných herných mechaník na stav kyslíka
+
+#### Mechanika paniky
+
+* dynamická úroveň paniky
+* reakcia na nedostatok kyslíka
+* reakcia na prostredie
+* reakcia na príbehové udalosti
+* ovplyvnenie správania a pohybu hráča
+
+#### Interakčný systém
+
+* interakcia s predmetmi
+* zbieranie predmetov
+* používanie predmetov
+* prepojenie predmetov s príbehovými úlohami
+
+#### Detektor kovov
+
+* vyhľadávanie skrytých predmetov
+* zvuková a vizuálna signalizácia
+* využitie v rámci príbehových úloh
+
+#### Vodiace lano
+
+* navigácia v podvodnom prostredí
+* pomoc pri orientácii
+* využitie počas príbehových udalostí
+
+### Prepojenie mechaník
+
+Jednotlivé systémy budú navzájom prepojené tak, aby vytvárali ucelený gameplay loop.
+
+```text
+Prieskum
+    ↓
+Interakcia
+    ↓
+Príbehová udalosť
+    ↓
+Zvýšenie napätia
+    ↓
+Zmena stavu hráča
+    ↓
+Ďalší postup
+```
+
+---
+
+# Igorova časť
+
+## Environment, Events & Atmosphere
+
+Igor je zodpovedný najmä za návrh herného prostredia, atmosféru, príbehové udalosti a systémy reagujúce na postup hráča.
+
+### Podvodná úroveň
 
 * návrh a tvorba jednej kompletnej hrateľnej podvodnej úrovne
 * rozmiestnenie objektov a interaktívnych prvkov
 * vytvorenie prostredia podporujúceho príbeh
 * prepojenie jednotlivých častí mapy s príbehovými úlohami
 
-### 💡 Dynamické osvetlenie
+### Dynamické osvetlenie
 
 * systém dynamického podvodného osvetlenia
 * obmedzená viditeľnosť
@@ -108,9 +120,9 @@ Igor je zodpovedný najmä za **návrh herného prostredia, atmosféru, príbeho
 * vizuálne zvýraznenie príbehových udalostí
 * využitie svetla na vytváranie napätia
 
-### 🎬 Skriptované udalosti
+### Skriptované udalosti
 
-Prostredie bude reagovať na postup hráča pomocou **skriptovaných udalostí**.
+Prostredie bude reagovať na postup hráča pomocou skriptovaných udalostí.
 
 Môže ísť napríklad o:
 
@@ -121,7 +133,7 @@ Môže ísť napríklad o:
 * spustenie príbehovej udalosti
 * aktiváciu nebezpečenstva
 
-### 💾 Checkpoint & Save systém
+### Checkpoint & Save systém
 
 Implementácia systému umožňujúceho:
 
@@ -131,9 +143,9 @@ Implementácia systému umožňujúceho:
 * zachovanie stavu príbehových udalostí
 * pokračovanie v hre po načítaní
 
-### 👁️ Nepriateľ / environmentálne nebezpečenstvo
+### Nepriateľ / environmentálne nebezpečenstvo
 
-Súčasťou úrovne bude **nepriateľ alebo environmentálne nebezpečenstvo**, ktoré bude reagovať na hráčovu prítomnosť alebo jeho postup.
+Súčasťou úrovne bude nepriateľ alebo environmentálne nebezpečenstvo, ktoré bude reagovať na hráčovu prítomnosť alebo jeho postup.
 
 Jeho správanie bude prepojené s:
 
@@ -145,35 +157,35 @@ Jeho správanie bude prepojené s:
 
 ---
 
-# 📖 Herná štruktúra
+# Herná štruktúra
 
-Hra bude obsahovať minimálne:
+Hra bude obsahovať minimálne 5 nadväzujúcich príbehových úloh.
 
-### `01` — Začiatok ponoru
+### 01 — Začiatok ponoru
 
-Hráč sa oboznámi s prostredím a základnými mechanikami.
+Hráč sa oboznámi s prostredím a základnými hernými mechanikami.
 
-### `02` — Prvý nález
+### 02 — Prvý nález
 
 Pomocou interakcie a detektora kovov hráč objavuje prvé dôležité predmety.
 
-### `03` — Strata orientácie
+### 03 — Strata orientácie
 
 Prostredie a obmedzená viditeľnosť začínajú ovplyvňovať hráčovu orientáciu a psychický stav.
 
-### `04` — Neznáme nebezpečenstvo
+### 04 — Neznáme nebezpečenstvo
 
-Hráč sa stretáva s udalosťou alebo nebezpečenstvom, ktoré mení atmosféru hry.
+Hráč sa stretáva s udalosťou alebo nebezpečenstvom, ktoré výrazne mení atmosféru hry.
 
-### `05` — Odhalenie
+### 05 — Odhalenie
 
 Posledná časť spája získané predmety, príbehové udalosti a herné mechaniky do záverečnej sekvencie.
 
-> **Jednotlivé úlohy budú vzájomne prepojené a vytvoria jeden súvislý príbeh.**
+> Jednotlivé úlohy budú vzájomne prepojené a vytvoria jeden súvislý príbeh.
 
 ---
 
-# 🛠️ Technológie
+# Technológie
 
 | Technológia         | Využitie                           |
 | ------------------- | ---------------------------------- |
@@ -185,7 +197,7 @@ Posledná časť spája získané predmety, príbehové udalosti a herné mechan
 
 ---
 
-# 🎨 Assety
+# Assety
 
 Projekt využíva kombináciu:
 
@@ -196,42 +208,44 @@ Projekt využíva kombináciu:
 * zvukových efektov
 * vizuálnych efektov
 
-> Hotové assety slúžia predovšetkým ako súčasť výsledného prostredia. **Hlavná hodnota projektu spočíva vo vlastnej implementácii herných mechaník a ich vzájomnom prepojení.**
+> Hotové assety slúžia predovšetkým ako súčasť výsledného prostredia. Hlavná hodnota projektu spočíva vo vlastnej implementácii herných mechaník a ich vzájomnom prepojení.
 
 ---
 
-# 🧠 Hlavné herné mechaniky
+# Architektúra herných mechaník
 
 ```text
-                    ┌───────────────┐
-                    │   PRÍBEH      │
-                    └───────┬───────┘
-                            │
-             ┌──────────────┼──────────────┐
-             ▼              ▼              ▼
-        ┌─────────┐    ┌─────────┐    ┌──────────┐
-        │ PANIKA  │◄──►│ KYSLÍK  │    │PROSTREDIE│
-        └────┬────┘    └────┬────┘    └─────┬────┘
-             │              │               │
-             └──────────────┼───────────────┘
-                            ▼
-                    ┌───────────────┐
-                    │    HRÁČ       │
-                    └───────┬───────┘
-                            │
-             ┌──────────────┼──────────────┐
-             ▼              ▼              ▼
-       ┌──────────┐   ┌──────────┐   ┌──────────┐
-       │DETEKTOR  │   │INTERAKCIA│   │   LANO   │
-       │  KOVOV   │   │ S OBJEKT.│   │          │
-       └──────────┘   └──────────┘   └──────────┘
+                         ┌───────────────┐
+                         │    PRÍBEH     │
+                         └───────┬───────┘
+                                 │
+                ┌────────────────┼────────────────┐
+                │                │                │
+                ▼                ▼                ▼
+          ┌──────────┐     ┌──────────┐     ┌───────────┐
+          │  PANIKA  │◄───►│  KYSLÍK  │     │ PROSTREDIE│
+          └────┬─────┘     └────┬─────┘     └─────┬─────┘
+               │                │                 │
+               └────────────────┼─────────────────┘
+                                ▼
+                         ┌───────────────┐
+                         │     HRÁČ      │
+                         └───────┬───────┘
+                                 │
+                ┌────────────────┼────────────────┐
+                │                │                │
+                ▼                ▼                ▼
+          ┌──────────┐     ┌──────────┐     ┌──────────┐
+          │ DETEKTOR │     │INTERAKCIA│     │   LANO   │
+          │  KOVOV   │     │ S OBJEKT.│     │          │
+          └──────────┘     └──────────┘     └──────────┘
 ```
 
 ---
 
-# 🎯 Cieľ projektu
+# Cieľ projektu
 
-Cieľom projektu je vytvoriť krátky, ale **ucelený herný zážitok**, v ktorom jednotlivé mechaniky nie sú oddelené systémy, ale navzájom spolupracujú a podporujú príbeh.
+Cieľom projektu je vytvoriť krátky, ale ucelený herný zážitok, v ktorom jednotlivé mechaniky nie sú oddelené systémy, ale navzájom spolupracujú a podporujú príbeh.
 
 Dôraz je kladený najmä na:
 
@@ -239,35 +253,37 @@ Dôraz je kladený najmä na:
 
 ---
 
-## 👥 Autori
+# Autori
 
-### Matej
+## Matej
 
-**Gameplay Programmer**
+### Gameplay Programmer
 
 Zodpovednosť:
+
 `Player Movement` · `Oxygen System` · `Panic System` · `Interaction` · `Metal Detector` · `Guideline System`
 
-### Igor
+## Igor
 
-**Level & Systems Designer**
+### Level & Systems Designer
 
 Zodpovednosť:
+
 `Level Design` · `Lighting` · `Events` · `Save System` · `Environmental Threats` · `Atmosphere`
 
 ---
 
-## 🏫 Maturitná práca
+# Maturitná práca
 
 **Študijný odbor:** Umelá inteligencia
 **Prostredie:** Unreal Engine
 **Typ projektu:** First-Person Horror / Story-driven
 **Platforma:** PC
-**Status:** 🚧 Vo vývoji
+**Status:** `In Development`
 
 ---
 
-> ### 🌊 GO DEEPER.
+> ### GO DEEPER.
 >
 > **Find the truth.**
 > **Before the oxygen runs out.**
